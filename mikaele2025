@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        h1 { color: #0073e6; }
+        .container { max-width: 800px; margin: auto; }
+        .projeto { border: 1px solid #ddd; padding: 15px; margin: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Meu Portfólio</h1>
+    <p>Olá! Meu nome é [Seu Nome] e sou estudante de TI.</p>
+
+    <div class="container">
+        <h2>Projetos</h2>
+
+        <div class="projeto">
+            <h3>Sistema de Controle de Estoque</h3>
+            <p>Um sistema web para gerenciar estoque de pequenas empresas.</p>
+            <p><strong>Tecnologias:</strong> Python (Django), PostgreSQL, Bootstrap</p>
+            <a href="https://github.com/seuusuario/sistema-estoque" target="_blank">Código no GitHub</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Bot para WhatsApp</h3>
+            <p>Um bot em Python que automatiza respostas no WhatsApp.</p>
+            <p><strong>Tecnologias:</strong> Python, Selenium</p>
+            <a href="https://github.com/seuusuario/bot-whatsapp" target="_blank">Código no GitHub</a>
+        </div>
+    </div>
+
+    <p>Entre em contato: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+</body>
+</html>
